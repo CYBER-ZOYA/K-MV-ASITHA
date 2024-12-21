@@ -19,7 +19,7 @@ DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.D
 ANTI_DELETE : process.env.ANTI_DELETE === undefined ? 'true' : process.env.ANTI_DELETE,
 ANTI_BOT: process.env.ANTI_BOT === undefined ? "true" : process.env.ANTI_BOT,
 WELCOME_GOODBYE: process.env.WELCOME_GOODBYE === undefined ? "false" : process.env.WELCOME_GOODBYE,
-ALLWAYS_OFFLINE: process.env.ALLWAYS_OFFLINE === undefined ? "false" : process.env.ALLWAYS_OFFLINE,
+ALLWAYS_OFFLINE: process.env.ALLWAYS_OFFLINE === undefined ? "true" : process.env.ALLWAYS_OFFLINE,
 READ_CMD: process.env.READ_CMD === undefined ? "true" : process.env.READ_CMD,
 RECORDING: process.env.RECORDING === undefined ? "true" : process.env.RECORDING,
 AI_CHAT: process.env.AI_CHAT === undefined ? "false" : process.env.AI_CHAT,
@@ -27,6 +27,6 @@ AUTO_REACT: process.env.AUTO_REACT === undefined ? "false" : process.env.AUTO_RE
 NEWS_JID: process.env.NEWS_JID === undefined ? "120363333126312229@g.us" : process.env.NEWS_JID,
 SEEDER_GMAIL: process.env.SEEDER_GMAIL === undefined ? "" : process.env.SEEDER_GMAIL,
 SEEDER_PASSWORD: process.env.SEEDER_PASSWORD === undefined ? "" : process.env.SEEDER_PASSWORD,
-BAD_NO_BLOCK: process.env.BAD_NO_BLOCK === undefined ? "false" : process.env.BAD_NO_BLOCK,  
+BAD_NO_BLOCK: process.env.BAD_NO_BLOCK === undefined ? "true" : process.env.BAD_NO_BLOCK,  
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,
 };
